@@ -1,5 +1,6 @@
 
-#DISCONNECT INPUT
+#DISCONNECT INPUT setting input 0 to none setting input1 to none
+
 nuke.selectedNode().setInput(1, None)
 
 nuke.selectedNode().setInput(0, None)
