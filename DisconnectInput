@@ -2,6 +2,8 @@
 #DISCONNECT INPUT
 nuke.selectedNode().setInput(1, None)
 
+nuke.selectedNode().setInput(0, None)
+
 #DISCONNECT ALL THE INPUTS OF THE SELECTED NODE
 for i in range(0, nuke.selectedNode().maxInputs()):
 	nuke.selectedNode().setInput(i, None)
